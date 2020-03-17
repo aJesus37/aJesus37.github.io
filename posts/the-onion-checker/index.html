@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>The Onion Checker | Heaven</title>
+        <meta name="Description" content="Uma introdução à ferramenta para automação de checagem de links na Deep Web"><meta property="og:title" content="The Onion Checker" />
+<meta property="og:description" content="Uma introdução à ferramenta para automação de checagem de links na Deep Web" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ajesus37.github.io/posts/the-onion-checker/" />
+<meta property="article:published_time" content="2017-02-01T12:00:00-03:00" />
+<meta property="article:modified_time" content="2020-03-17T10:10:00-03:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="The Onion Checker"/>
+<meta name="twitter:description" content="Uma introdução à ferramenta para automação de checagem de links na Deep Web"/>
+<meta name="theme-color" content="#ffffff">
+<meta name="msapplication-TileColor" content="#da532c">
+<link rel="canonical" href="https://ajesus37.github.io/posts/the-onion-checker/" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="next" href="https://ajesus37.github.io/posts/tor-browser-as-a-browser/" /><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><link rel="stylesheet" href="/css/style.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "The Onion Checker",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/ajesus37.github.io\/posts\/the-onion-checker\/"
+        },"genre": "posts","keywords": "Linux, Tool, HowTo","wordcount":  281 ,
+        "url": "https:\/\/ajesus37.github.io\/posts\/the-onion-checker\/","datePublished": "2017-02-01","dateModified": "2020-03-17","author": {
+                "@type": "Person",
+                "name": "Jesus"
+            },"description": "Uma introdução à ferramenta para automação de checagem de links na Deep Web"
+    }
+    </script></head>
+    <body><script>
+            if (!window.localStorage || !window.localStorage.getItem('theme')) {window.isDark = 'dark' === 'dark';} else {
+                window.isDark = (window.localStorage && window.localStorage.getItem('theme')) === 'dark';
+            }
+            window.isDark && document.body.classList.add('dark-theme');
+        </script><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/">Heaven</a>
+        </div>
+        <div class="menu"><a class="menu-item" href="/posts/" rel="noopener noreffer">Posts</a><a class="menu-item" href="/categories/" rel="noopener noreffer">Categories</a><a class="menu-item" href="/about" title="About" rel="noopener noreffer">About</a><span class="menu-item">|</span>
+            <a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-wrapper">
+        <div class="header-container">
+            <div class="header-title">
+                <a href="/">Heaven</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="" rel="noopener noreffer">Posts</a><a class="menu-item" href="/categories/" title="" rel="noopener noreffer">Categories</a><a class="menu-item" href="/about" title="About" rel="noopener noreffer">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+
+<script>
+    window.desktopHeaderMode =  null ;
+    window.mobileHeaderMode =  null ;
+</script>
+<main class="main">
+                <div class="container"><article class="page single"><h1 class="single-title animated flipInX">The Onion Checker</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Jesus</a>
+</span>&nbsp;
+                    <span class="post-category">included in<a href="/categories/deep-web">
+                                <i class="far fa-folder fa-fw"></i>Deep web
+                            </a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2017-02-01>2017-02-01</time>&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>about 281 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>2 min&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-sizes="auto"
+        data-srcset="images/github-wallpaper.png, images/github-wallpaper.png 1.5x, images/github-wallpaper.png 2x"
+        data-src="images/github-wallpaper.png"
+        alt="Uma introdução à ferramenta para automação de checagem de links na Deep Web"
+        title="Uma introdução à ferramenta para automação de checagem de links na Deep Web" /></div><div class="toc" id="toc-auto">
+                <h2 class="toc-title">Contents</h2>
+                <div class="toc-content" id="toc-content-auto"></div>
+            </div>
+            <div class="toc" id="toc-static">
+                <details>
+                    <summary>
+                        <div class="toc-title">
+                            <span>Contents</span>
+                            <span><i class="details icon fas fa-angle-down"></i></span>
+                        </div>
+                    </summary>
+                    <div class="toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+                </details>
+            </div><div class="content" id="content"><p>Se você é um usuário &ldquo;constante&rdquo; da rede onion, está acostumado a encontrar diversos diretórios de links por lá, e acabar naquela dificuldade de ficar testando um por um, manualmente, não é? Pois bem, trago aqui algo que pode facilitar um pouco a sua navegação.</p>
+<p>Venho apresentar a ferramenta <a href="https://github.com/ajesus37/Onion-Checker" target="_blank" rel="noopener noreffer"><strong>Onion Checker</strong></a>
+, desenvolvida por mim.</p>
+<p>O intuito dessa ferramenta é organizar links referentes à rede onion, bem como testar se os mesmos estão online, e caso positivo, adicionar o título existente no site, bem como o link, num txt.</p>
+<p>A utilização base do programa é bem simples, sendo exatamente:</p>
+<p><code>onion-checker -c ListaDeLinks.txt</code></p>
+<p>Ou ainda utilizando um arquivo de destino para os links online. Caso seja omitido, os links online irão para a <code>$HOME</code> do usuário, no arquivo <em>linkson.txt</em>.</p>
+<p>Uma interessante funcionalidade é a de permitir ao usuário escolher o tempo de timeout para a checagem dos links, para que os mesmos sejam dados como offline, em <em>segundos</em>, <em>minutos</em>, <em>horas</em> e até <em>dias</em>.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="https://i.imgur.com/Swa1aRf.png,  1.5x,  2x"
+        data-src=""
+        alt=""
+        title="" /></p>
+<p>Dentre as outras funcionalidades do programa, pode-se salientar a de organização de links. Esse comando pega <strong>N</strong> arquivos de texto contendo links passados para o programa, e os filtra, passando apenas os links, linha por linha, para outro arquivo ou para serem imprimidos na tela. O uso dessa função é:</p>
+<p><code>onion-checker -l Arquivo1.txt Arquivo2.txt Arquivo3.txt ArquivoDestino.txt</code></p>
+<p>O último nome passado será sempre o arquivo destino, e caso o último seja <code>-st</code>, o conteúdo será exibido na tela.</p>
+<p>Outra função mais simples apenas une arquivos diferentes uns nos outros, sob a flag <code>-j</code>.</p>
+<p>Abaixo você pode ver a mensagem completa de ajuda contento todos os comandos que o programa aceita, e para mais ajuda, use um deles sem flag alguma.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="https://i.imgur.com/22LA8f2.png,  1.5x,  2x"
+        data-src=""
+        alt=""
+        title="" /></p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>The article was updated on 2020-03-17</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://ajesus37.github.io/posts/the-onion-checker/" data-title="The Onion Checker" data-via="aJesus37" data-hashtags="Linux,Tool,HowTo"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://ajesus37.github.io/posts/the-onion-checker/" data-hashtag="Linux"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://ajesus37.github.io/posts/the-onion-checker/"><i class="fab fa-linkedin fa-fw"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://ajesus37.github.io/posts/the-onion-checker/" data-title="The Onion Checker" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://ajesus37.github.io/posts/the-onion-checker/"><i class="fab fa-reddit fa-fw"></i></a><a href="javascript:void(0);" title="Share on Evernote" data-sharer="evernote" data-url="https://ajesus37.github.io/posts/the-onion-checker/" data-title="The Onion Checker"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/linux">Linux</a>,&nbsp;<a href="/tags/tool">Tool</a>,&nbsp;<a href="/tags/howto">HowTo</a></section>
+        <section>
+            <span><a href="javascript:window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+            <a href="/posts/tor-browser-as-a-browser/" class="next" rel="next" title="Tor Browser as a Browser">Tor Browser as a Browser<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div class="comment"></div>
+    </article></div>
+            </main><footer class="footer">
+    <div class="copyright"><div class="copyright-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="external nofollow noopener noreffer"><i class="far fa-heart fa-fw"></i> LoveIt</a>
+        </div>
+
+        <div class="copyright-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2017 - 2020</span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://github.com/dillonzq/LoveIt/blob/master/LICENSE" target="_blank">MIT</a></span></div>
+    </div>
+</footer>
+</div><a href="#" class="dynamic-to-top animated faster" id="dynamic-to-top">
+            <i class="fas fa-chevron-up fa-fw"></i>
+        </a><script>
+        document.addEventListener('DOMContentLoaded', function () {
+            lightGallery(document.getElementById('content'), {
+                selector: '.lightgallery',
+                speed: 400,
+                hideBarsDelay: 2000,
+                thumbnail: true,
+                exThumbImage: 'data-thumbnail',
+                thumbWidth: 80,
+                thumbContHeight: 80,
+            });
+        });
+    </script><script>
+        document.addEventListener('DOMContentLoaded', function () {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: '$$', right: '$$', display: true },
+                    { left: '\\[', right: '\\]', display: true },{ left: '$', right: '$', display: false },
+                    { left: '\\(', right: '\\)', display: false },],
+                strict: false,
+            });
+        });
+    </script><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><script src="/lib/smooth-scroll/smooth-scroll.polyfills.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/lightgallery/lightgallery.min.js"></script><script src="/lib/lightgallery/lg-thumbnail.min.js"></script><script src="/lib/lightgallery/lg-zoom.min.js"></script><script src="/lib/katex/katex.min.js"></script><script src="/lib/katex/auto-render.min.js"></script><script src="/lib/katex/copy-tex.min.js"></script><script src="/lib/katex/mhchem.min.js"></script><script src="/js/theme.min.js"></script></body>
+</html>

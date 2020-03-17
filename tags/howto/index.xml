@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HowTo on Heaven</title>
+    <link>https://ajesus37.github.io/tags/howto/</link>
+    <description>Recent content in HowTo on Heaven</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Feb 2017 12:00:00 -0300</lastBuildDate>
+    
+	<atom:link href="https://ajesus37.github.io/tags/howto/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Onion Checker</title>
+      <link>https://ajesus37.github.io/posts/the-onion-checker/</link>
+      <pubDate>Wed, 01 Feb 2017 12:00:00 -0300</pubDate>
+      
+      <guid>https://ajesus37.github.io/posts/the-onion-checker/</guid>
+      <description>Se você é um usuário &amp;ldquo;constante&amp;rdquo; da rede onion, está acostumado a encontrar diversos diretórios de links por lá, e acabar naquela dificuldade de ficar testando um por um, manualmente, não é? Pois bem, trago aqui algo que pode facilitar um pouco a sua navegação.
+Venho apresentar a ferramenta Onion Checker , desenvolvida por mim.
+O intuito dessa ferramenta é organizar links referentes à rede onion, bem como testar se os mesmos estão online, e caso positivo, adicionar o título existente no site, bem como o link, num txt.</description>
+    </item>
+    
+  </channel>
+</rss>

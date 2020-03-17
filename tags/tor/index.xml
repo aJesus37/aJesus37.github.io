@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tor on Heaven</title>
+    <link>https://ajesus37.github.io/tags/tor/</link>
+    <description>Recent content in Tor on Heaven</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 21 Mar 2019 20:00:00 -0300</lastBuildDate>
+    
+	<atom:link href="https://ajesus37.github.io/tags/tor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tor Browser as a Browser</title>
+      <link>https://ajesus37.github.io/posts/tor-browser-as-a-browser/</link>
+      <pubDate>Thu, 21 Mar 2019 20:00:00 -0300</pubDate>
+      
+      <guid>https://ajesus37.github.io/posts/tor-browser-as-a-browser/</guid>
+      <description>Quando se trata de Tor, geralmente não se fazem distinções, Tor é único, Tor é o todo, mas nos enganamos ao pensar dessa forma. O Tor, falando de forma pura e simples, é um composto de duas partes. O Tor Browser, e o Tor Network. Os nomes são um tanto auto-explicativos, mas trata-se do navegador, a interface gráfica e meio entre o usuário e a rede, que é onde a magia dos hidden services e conceitos mais complexos da segurança do Tor se aplicam.</description>
+    </item>
+    
+  </channel>
+</rss>

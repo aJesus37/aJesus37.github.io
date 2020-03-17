@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Heaven</title>
+    <link>https://ajesus37.github.io/posts/</link>
+    <description>Recent content in Posts on Heaven</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 19 Aug 2019 21:15:00 -0300</lastBuildDate>
+    
+	<atom:link href="https://ajesus37.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Podcasts - Because old, is cool</title>
+      <link>https://ajesus37.github.io/posts/security-podcasts/</link>
+      <pubDate>Mon, 19 Aug 2019 21:15:00 -0300</pubDate>
+      
+      <guid>https://ajesus37.github.io/posts/security-podcasts/</guid>
+      <description>Introdução Se você nasceu depois dos anos 2000, as chances de você nunca ter ouvido falar sobre podcasts é grande, e se ouviu falar, certamente nunca ouviu um.
+Mas afinal, o que é um podcast? Podcasts são como os atuais vlogs, mas sem a parte visual, ou seja, são talkshows totalmente em audio.
+Sendo uma pessoa criada nos tempos atuais muito provavelmente te colocará na perspectiva de pessoas majoritariamente visuais, ou seja, os estímulos visuais te fazem sentir atraído por algo.</description>
+    </item>
+    
+    <item>
+      <title>Tor Browser as a Browser</title>
+      <link>https://ajesus37.github.io/posts/tor-browser-as-a-browser/</link>
+      <pubDate>Thu, 21 Mar 2019 20:00:00 -0300</pubDate>
+      
+      <guid>https://ajesus37.github.io/posts/tor-browser-as-a-browser/</guid>
+      <description>Quando se trata de Tor, geralmente não se fazem distinções, Tor é único, Tor é o todo, mas nos enganamos ao pensar dessa forma. O Tor, falando de forma pura e simples, é um composto de duas partes. O Tor Browser, e o Tor Network. Os nomes são um tanto auto-explicativos, mas trata-se do navegador, a interface gráfica e meio entre o usuário e a rede, que é onde a magia dos hidden services e conceitos mais complexos da segurança do Tor se aplicam.</description>
+    </item>
+    
+    <item>
+      <title>The Onion Checker</title>
+      <link>https://ajesus37.github.io/posts/the-onion-checker/</link>
+      <pubDate>Wed, 01 Feb 2017 12:00:00 -0300</pubDate>
+      
+      <guid>https://ajesus37.github.io/posts/the-onion-checker/</guid>
+      <description>Se você é um usuário &amp;ldquo;constante&amp;rdquo; da rede onion, está acostumado a encontrar diversos diretórios de links por lá, e acabar naquela dificuldade de ficar testando um por um, manualmente, não é? Pois bem, trago aqui algo que pode facilitar um pouco a sua navegação.
+Venho apresentar a ferramenta Onion Checker , desenvolvida por mim.
+O intuito dessa ferramenta é organizar links referentes à rede onion, bem como testar se os mesmos estão online, e caso positivo, adicionar o título existente no site, bem como o link, num txt.</description>
+    </item>
+    
+  </channel>
+</rss>

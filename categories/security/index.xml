@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on Heaven</title>
+    <link>https://ajesus37.github.io/categories/security/</link>
+    <description>Recent content in Security on Heaven</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 19 Aug 2019 21:15:00 -0300</lastBuildDate>
+    
+	<atom:link href="https://ajesus37.github.io/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Podcasts - Because old, is cool</title>
+      <link>https://ajesus37.github.io/posts/security-podcasts/</link>
+      <pubDate>Mon, 19 Aug 2019 21:15:00 -0300</pubDate>
+      
+      <guid>https://ajesus37.github.io/posts/security-podcasts/</guid>
+      <description>Introdução Se você nasceu depois dos anos 2000, as chances de você nunca ter ouvido falar sobre podcasts é grande, e se ouviu falar, certamente nunca ouviu um.
+Mas afinal, o que é um podcast? Podcasts são como os atuais vlogs, mas sem a parte visual, ou seja, são talkshows totalmente em audio.
+Sendo uma pessoa criada nos tempos atuais muito provavelmente te colocará na perspectiva de pessoas majoritariamente visuais, ou seja, os estímulos visuais te fazem sentir atraído por algo.</description>
+    </item>
+    
+  </channel>
+</rss>

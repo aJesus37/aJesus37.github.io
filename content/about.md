@@ -6,5 +6,5 @@ Agora falando um pouco sobre mim... Eu tenho 21 anos, sou estudante de Seguranç
 
 Passo a maior parte do meu tempo estudando como automatizar tarefas, como usar Linux em todas as coisas, e como simplificar tarefas com Docker. Ah, tudo isso ligado com segurança da informação, claro.
 
-Quer falar comigo? Recomendo utilizar o telegram, com [esse link](t.me/JesusFromHellz) poderá me encontrar. Ou se preferir pode mandar um email pra mim, em clicando [aqui](https://ajesus37.github.io/blog/contact/) .
+Quer falar comigo? Recomendo utilizar o telegram, com [esse link](t.me/JesusFromHellz) poderá me encontrar. Ou se preferir pode mandar um email pra mim, [ajesus37@protonmail.com](mailto:ajesus37@protonmail.com)
 

@@ -1,4 +1,4 @@
-Olá :)
+Olá :grinning:
 
 Sou Jesus, mantenho esse blog. Minha ideia com ele é compartilhar o que sei e criar conteúdo que possa ajudar as pessoas.
 

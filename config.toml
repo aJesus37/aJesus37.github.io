@@ -165,9 +165,9 @@ theme = "LoveIt"
     # Disqus Comment Config (https://disqus.com/)
     [params.comment.disqus]
       # LoveIt   v0.1.1
-      enable = false
+      enable = true
       # Disqus shortname to use Disqus in posts
-      shortname = "ajesus37"
+      shortname = "heaven-7"
 
   # site verification code for Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]

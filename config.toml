@@ -1,0 +1,209 @@
+baseURL = "https://ajesus37.github.io/"
+# [en, zh-cn, fr, ...] determines default content language
+defaultContentLanguage = "en"
+# language code
+languageCode = "en"
+title = "Heaven"
+# whether to use emoji code
+enableEmoji = true
+
+# Change the default theme to be use when building the site with Hugo
+theme = "LoveIt"
+
+[params]
+  # LoveIt theme version
+  version = "0.1.X"
+  defaultTheme = "dark"
+
+[params.footer]
+    # Site creation time
+    since = 2017
+    # license info (HTML format is allowed)
+    license= '<a rel="license external nofollow noopener noreffer" href="https://github.com/dillonzq/LoveIt/blob/master/LICENSE" target="_blank">MIT</a>'
+
+# Home Page Info
+  [params.home]
+    # Home Page Profile
+    [params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = ""
+      # URL of avatar shown in home page
+      avatarURL = "/images/avatar.png"
+      # subtitle shown in home page
+      subtitle = "Where Jesus lives."
+      # whether to use typeit animation for subtitle
+      typeit = true
+      # whether to show social links
+      social = true
+    # Home Page Posts
+    [params.home.posts]
+      enable = true
+      # special amount of posts in each home posts page
+      paginate = 6
+      # default behavior when you don't set "hiddenFromHomePage" in front matter
+      defaultHiddenFromHomePage = false
+  # Social Info in home page
+  [params.social]
+    GitHub = "aJesus37"
+    Linkedin = "andersonjsantos"
+    Twitter = "aJesus37"
+    #Instagram = "xxxx"
+    Email = "ajesus37@protonmail.com"
+    #Facebook = "xxxx"
+    Telegram = "JesusFromHellz"
+    # Medium = "xxxx"
+    # Gitlab = "xxxx"
+    #Youtubelegacy = "xxxx"
+    # Youtubecustom = "xxxx"
+    # Youtubechannel = "xxxx"
+    # Tumblr ="xxxx"
+    # Quora = "xxxx"
+    # Keybase = "xxxx"
+    # Pinterest = "xxxx"
+    # Reddit = "xxxx"
+    # Codepen = "xxxx"
+    # FreeCodeCamp = "xxxx"
+    # Bitbucket = "xxxx"
+    # Stackoverflow = "xxxx"
+    # Weibo = "xxxx"
+    # Odnoklassniki = "xxxx"
+    # VK = "xxxx"
+    # Flickr = "xxxx"
+    # Xing = "xxxx"
+    # Snapchat = "xxxx"
+    # Soundcloud = "xxxx"
+    # Spotify = "xxxx"
+    # Bandcamp = "xxxx"
+    # Paypal = "xxxx"
+    # Fivehundredpx = "xxxx"
+    # Mix = "xxxx"
+    # Goodreads = "xxxx"
+    # Lastfm = "xxxx"
+    # Foursquare = "xxxx"
+    # Hackernews = "xxxx"
+    # Kickstarter = "xxxx"
+    # Patreon = "xxxx"
+    # Steam = "xxxx"
+    # Twitch = "xxxx"
+    # Strava = "xxxx"
+    # Skype = "xxxx"
+    # Whatsapp = "xxxx"
+    # Zhihu = "xxxx"
+    # Douban = "xxxx"
+    # Angellist = "xxxx"
+    # Slidershare = "xxxx"
+    # Jsfiddle = "xxxx"
+    # Deviantart = "xxxx"
+    # Behance = "xxxx"
+    # Dribble = "xxxx"
+    # Wordpress = "xxxx"
+    # Vine = "xxxx"
+    # Googlescholar = "xxxx"
+    # Researchgate = "xxxx"
+    # Mastodon = "xxxx"
+    # MastodonPrefix = "https://mastodon.technology/"
+    # Thingiverse = "xxxx"
+    # Devto = "xxxx"
+    # Gitea = "xxxx"
+    # XMPP = "xxxx"
+    # Matrix = "xxxx"
+    # Bilibili = "xxxx"
+
+  # Page config
+  [params.page]
+    # whether to use lightgallery in the page
+    lightgallery = true
+    # whether to show link to Raw Markdown content of the post
+    linkToMarkdown = true
+  # mathematical formulas (KaTeX https://katex.org/)
+  [params.math]
+    enable = true
+    # default block delimiter is $$ ... $$ and \\[ ... \\]
+    #blockLeftDelimiter = ""
+    #blockRightDelimiter = ""
+    # default inline delimiter is $ ... $ and \\( ... \\)
+    #inlineLeftDelimiter = ""
+    #inlineRightDelimiter = ""
+    # KaTeX extension copy_tex
+    copyTex = true
+    # KaTeX extension mhchem
+    mhchem = true
+  # Social Share Links in post page
+  [params.share]
+    enable = true
+    Twitter = true
+    Facebook = true
+    Linkedin = true
+    Whatsapp = true
+    #Pinterest = true
+    # Tumblr = true
+    #HackerNews = true
+     Reddit = true
+    # VK = true
+    # Buffer = true
+    # Xing = true
+    # Line = true
+    # Instapaper = true
+    # Pocket = true
+    # Digg = true
+    # Stumbleupon = true
+    # Flipboard = true
+    # Weibo = true
+    # Renren = true
+    # Myspace = true
+    # Blogger = true
+    # Baidu = true
+    # Odnoklassniki = true
+     Evernote = true
+    # Skype = true
+    # Trello = true
+    # Mix = true
+  # Comment Config
+  [params.comment]
+    enable = true
+    # Disqus Comment Config (https://disqus.com/)
+    [params.comment.disqus]
+      # LoveIt   v0.1.1
+      enable = false
+      # Disqus shortname to use Disqus in posts
+      shortname = "ajesus37"
+
+  # site verification code for Google/Bing/Yandex/Pinterest/Baidu
+  [params.verification]
+    google = ""
+    bing = ""
+    yandex = ""
+    pinterest = ""
+    baidu = ""
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is allowed), such as icons
+    pre = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 1
+#  [[menu.main]]
+#    identifier = "tags"
+#    pre = ""
+#    name = "Tags"
+#    url = "/tags/"
+#    title = ""
+#    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    pre = ""
+    name = "About"
+    url = "/about"
+    title = "About"
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+    weight = 3

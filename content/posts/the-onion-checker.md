@@ -12,7 +12,7 @@ license: ""
 
 hiddenFromHomePage: false
 
-featuredImage: "images/github-wallpaper.png"
+featuredImage: "/images/github-wallpaper.png"
 featuredImagePreview: ""
 
 toc: true

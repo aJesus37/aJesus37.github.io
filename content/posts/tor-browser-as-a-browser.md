@@ -11,7 +11,7 @@ license: ""
 
 hiddenFromHomePage: false
 
-featuredImage: "images/tor-wallpaper.png"
+featuredImage: "/images/tor-wallpaper.png"
 featuredImagePreview: ""
 
 toc: true

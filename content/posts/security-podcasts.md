@@ -5,7 +5,7 @@ lastmod: 2020-03-17T10:52:00-03:00
 description: "Introdução e breve listagem de podcasts sobre segurança da informação"
 categories: ["Security"]
 tags: ["Podcast"]
-featuredImage: "images/security-podcasts/mic-pic.jpg"
+featuredImage: "/images/security-podcasts/mic-pic.jpg"
 featuredImagePreview: ""
 author: "Jesus"
 authorLink: ""
